@@ -1,0 +1,119 @@
+:root {
+    --primaryGreen: #126846;
+    --accentGreen: #61C193;
+    --lightText: #FAFAFA;
+    --offWhite: #F4F4F4;
+    --darkGray: #262626;
+}
+
+/* Landing Page */
+.about, .features {
+    padding: 20px;
+}
+
+.about {
+    color: var(--offWhite);
+    background-color: var(--darkGray);
+}
+
+.App {
+    text-align: left;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: var(--primaryGreen);
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar {
+    background-color: var(--primaryGreen);
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--darkGray);
+}
+
+
+.slogan {
+    color: var(--lightText);
+    padding: 30px 0px;
+}
+
+.slogan h1{
+    font-weight: bold;
+}
+
+.signup::after, .login::after, .teamregister::after {
+    content: "";
+    opacity: 0.8;
+    background: url(/static/media/signuppage.3f163281.jpg) no-repeat center center fixed;
+    background-color: gray;
+      background-blend-mode: multiply;
+    -webkit-filter: blur(2px);
+    filter: blur(2px) brightness(-20);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    min-height: 100vh;
+/*    overflow: hidden;*/
+}
+
+
+.teamregister {
+    padding: 5vh 10px;
+}
+
+.signup {
+    padding: 15vh 40px;
+}
+
+.login {
+    padding: 25vh 100px;    
+}
+
+.signup-login-card, .card-form {
+    padding: 25px;
+}
+
+/* Profile View */
+.profileImage {
+    width: 200px;
+    margin: 10px;
+}
