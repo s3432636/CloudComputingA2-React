@@ -52,7 +52,7 @@ class Login extends Component {
     e.preventDefault();
     const { email, password } = this.state;
 
-    fetch("http://https://cc2020-272109.appspot.com/authenticate", {
+    fetch("http://https://calm-depot-272109.ts.r.appspot.com/authenticate", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
