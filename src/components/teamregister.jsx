@@ -60,7 +60,7 @@ class TeamRegister extends Component {
       city,
     } = this.state;
 
-    fetch("http://localhost:3000/api/v1/groups/register", {
+    fetch("http://https://cc2020-272109.appspot.com/api/v1/groups/register", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

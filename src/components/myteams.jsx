@@ -13,7 +13,7 @@ import { Button } from "react-bootstrap";
 export default function MyTeams() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/api/v1/teams")
+    fetch("http://https://cc2020-272109.appspot.com/api/v1/teams")
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);

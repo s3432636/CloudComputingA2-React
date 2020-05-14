@@ -52,7 +52,7 @@ class Login extends Component {
     e.preventDefault();
     const { email, password } = this.state;
 
-    fetch("http://localhost:3000/authenticate", {
+    fetch("http://https://cc2020-272109.appspot.com/authenticate", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
