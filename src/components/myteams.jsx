@@ -14,7 +14,7 @@ export default function MyTeams() {
   const [data, setData] = useState([]);
   useEffect(() => {
     console.log("about to fetch")
-    fetch("http://localhost:3000/api/v1/groups")
+    fetch("https://calm-depot-272109.ts.r.appspot.com/api/v1/groups")
       .then(
         (response) => response.json())
       .then((data) => 
