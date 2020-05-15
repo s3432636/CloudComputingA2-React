@@ -14,7 +14,7 @@ class Team extends Component {
         return (
             <React.Fragment>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={"https://cdn.dribbble.com/users/1222550/screenshots/4524432/b1db1259207091.5a198e7cae3cb.png"} />
+                    <Card.Img variant="top" src={"https://storage.googleapis.com/playerlyimages/hqmd9yLv_400x400.jpg"} />
                     <Card.Body>
                         <Card.Title>Gorrilas</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">Basketball</Card.Subtitle>
