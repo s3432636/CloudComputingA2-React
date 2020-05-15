@@ -13,9 +13,15 @@ import { Button } from "react-bootstrap";
 export default function MyTeams() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://https://calm-depot-272109.ts.r.appspot.com/api/v1/groups")
-      .then((response) => response.json())
-      .then((data) => setData(data));
+    console.log("about to fetch")
+    fetch("http://localhost:3000/api/v1/groups")
+      .then(
+        (response) => response.json())
+      .then((data) => 
+      {
+        setData(data);
+        console.log(data);
+      });
   }, []);
 
   return (
