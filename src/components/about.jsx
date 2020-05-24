@@ -16,11 +16,7 @@ class About extends Component {
                         Players can set up their profile according to their individual circumstances and
                         once they are added to a team or group, they are able to see the latest updates,
                         including game time, location, payment and more information regarding this team.</p>
-                    <p>This app has been developed by students at RMIT university as our final
-                        programming project, in Semester 1, 2020. Our project sponsor is Ameer Albahem,
-                        a tutor at RMIT university. Our project leader is Thien Ngyuen (s3602814) and
-                        our scrum team consists of Albert Gromek (s3432636), Patrick Mifsud (s36541142)
-                        and Natalie Muhar (s3602994).</p>
+                    <p> This app has been deployed to AWS and Gcloud as part of the Cloud Computing Semester 2, 2020 Course.</p>
                 </Container>
             </div>
         );

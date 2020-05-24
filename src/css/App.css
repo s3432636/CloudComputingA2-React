@@ -79,7 +79,7 @@
 .signup::after, .login::after, .teamregister::after {
     content: "";
     opacity: 0.8;
-    background: url(/static/media/signuppage.3f163281.jpg) no-repeat center center fixed;
+    background: url(https://playerly-website-images.s3.amazonaws.com/signuppage.jpg) no-repeat center center fixed;
     background-color: gray;
       background-blend-mode: multiply;
     -webkit-filter: blur(2px);

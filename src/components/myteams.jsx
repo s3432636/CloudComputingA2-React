@@ -14,7 +14,7 @@ export default function MyTeams() {
   const [data, setData] = useState([]);
   useEffect(() => {
     console.log("about to fetch")
-    fetch("https://calm-depot-272109.ts.r.appspot.com/api/v1/groups")
+    fetch("https://s3656005-task2.appspot.com/api/v1/groups")
       .then(
         (response) => response.json())
       .then((data) => 
@@ -30,7 +30,7 @@ export default function MyTeams() {
         <ul>
           {data.map((x) => (
             <Card style={{ width: "23rem" }}>
-              <Card.Img variant="top" src={x.image} />
+              <Card.Img variant="top" src={x.profile_image} />
               <Card.Body>
                 <Card.Title>{x.name}</Card.Title>
 

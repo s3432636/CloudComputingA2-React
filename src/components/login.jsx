@@ -9,7 +9,6 @@ import {
   Footer,
 } from "react-bootstrap";
 import "./../css/App.css";
-import logo from "./../signuppage.jpg";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
@@ -51,8 +50,8 @@ class Login extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const { email, password } = this.state;
-
-    fetch("http://https://calm-depot-272109.ts.r.appspot.com/authenticate", {
+    console.log(email + ' ' + password)
+    fetch("https://s3656005-task2.appspot.com/authenticate", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
@@ -84,7 +83,7 @@ class Login extends Component {
           localStorage.setItem("auth_token", "");
           console.log("do an error");
           alert("Invalid Login Details");
-          window.location.href = "http://localhost:3006/login";
+          window.location.href = "https://calm-depot-272109.ts.r.appspot.com/login";
         }
         console.log(obj);
       });

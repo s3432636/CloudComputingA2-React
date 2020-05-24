@@ -8,7 +8,7 @@ class Footer extends Component {
   render() {
     return (
         <Footer>
-        <Card.Footer className="text-muted">2020, RMIT, Natalie Muhar</Card.Footer>
+        <Card.Footer className="text-muted">2020, RMIT</Card.Footer>
         </Footer>
     )
   }

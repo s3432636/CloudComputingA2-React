@@ -16,7 +16,7 @@ class NavigationBar extends Component {
     <Nav className="mr-auto">
       <Nav.Link as={Link} to="/">Home</Nav.Link>
       <Nav.Link as={Link} to="/teams">Teams</Nav.Link>
-      <Nav.Link as={Link} to="/teamregister">Register a Team</Nav.Link>
+      <Nav.Link href='https://projectnexrmit.ts.r.appspot.com/'>Discussion Board</Nav.Link>
     </Nav>
     <Form inline className="mr-auto"> 
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
